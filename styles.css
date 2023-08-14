@@ -9,12 +9,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 main {
   width: 75%;
   background-color: #f2fcfc;
   display: flex;
   border-radius: 15px;
+}
+
+h3 {
+  text-transform: uppercase;
 }
 
 /*make the width of both 50% i.e half and equal.*/
@@ -38,4 +41,39 @@ img {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+}
+
+input {
+  border: none;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #b3adad;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  display: block;
+}
+
+span {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.signup {
+  border: NONE;
+  background-color: #1b05bd;
+  border-radius: 30%;
+  color: #f2fcfc;
+  padding: 2%;
+}
+
+.toc {
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
 }
